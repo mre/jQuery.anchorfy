@@ -1,0 +1,62 @@
+jQuery ratingbar
+================
+
+Introduction
+------------
+
+jQuery anchorfy will create a linked list of all headings (h1, h2,…) within an element. It’s easy to use, fully customizable and supports scrolling animations.
+
+So if you have a page layout with some headings in it like this:
+		<div class="example">
+			<h3>A heading</h3>
+			<p>Some very interesting text</p>
+			<h3>Another heading</h3>
+			<p>Boy this text is interesting!</p>
+		</div>
+		
+jQuery anchorfy then creates an unordered list from that:
+
+* A heading
+* Another heading
+
+This does not look very sophisticated yet, does it? But naturally you can create a nice style with CSS. Check out the included example files.
+
+Installation
+------------
+
+1. Copy the folders js and css of the downloaded package into the root directory of your website.
+
+2. Add jQuery and the anchorfy plugin into the header of the page:
+
+		<head>
+		...
+		<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery.anchorfy.js"></script>
+		<script type="text/javascript" charset="utf-8">
+		$(document).ready(function() {
+		$('.example').anchorfy();
+		});
+		</script>
+		...
+		</head>
+		
+3. Change the name of the selector (here: example) in the above code to match an element inside your layout.
+
+4 Create an element with class anchor between <body> and </body> where a list with all headings:
+
+		<div class="anchors"></div>
+
+That’s it. Have fun!
+
+
+License
+-------
+
+Copyright Matthias Endler. 
+Dual licensed under the MIT and GPL licenses. 
+
+The text that is used for this example is borrowed from the great book “Why’s (poignant) Guide to Ruby”. 
+The book and excerpt used in this example are distributed under the Creative Commons Attribution-ShareAlike license. 
+Copyright by why.
+
+
