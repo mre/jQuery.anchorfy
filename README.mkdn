@@ -42,7 +42,7 @@ Installation
 		
 3. Change the name of the selector (here: example) in the above code to match an element inside your layout.
 
-4 Create an element with class anchor between <body> and </body> where a list with all headings:
+4 Create an element with class anchor between `<body>` and `</body>` where a list with all headings:
 
 		<div class="anchors"></div>
 
