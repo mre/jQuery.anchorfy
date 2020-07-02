@@ -1,0 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: jQuery.anchorfy
+  description: |
+     Create a linked list of all headers inside a container. 
+     Supports animations and is easy to adjust. Repository is [here](https://github.com/mre/jQuery.anchorfy).
+  labels:
+    system: frontend
+    lifecycle: production
+    trivago.com/service-discovery-name: anchorfy
+  annotations:
+    circleci.com/project-slug: gh/example-org/anchorfy
+spec:
+  type: service
