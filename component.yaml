@@ -8,7 +8,6 @@ metadata:
      Supports animations and is easy to adjust. Repository is [here](https://github.com/mre/jQuery.anchorfy).
   labels:
     system: frontend
-    lifecycle: production
     trivago.com/service-discovery-name: anchorfy
   annotations:
     circleci.com/project-slug: gh/example-org/anchorfy
